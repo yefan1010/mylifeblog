@@ -1,6 +1,7 @@
 import { defineConfig } from "vitepress";
 
 export default defineConfig({
+  base: '/mylifeblog/',
   title: "叶子的生活随笔点滴", // 网站的标题
   description: "记录自己生活中的学习和点滴", // 网站的描述
   themeConfig: {
